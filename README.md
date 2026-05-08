@@ -7,6 +7,8 @@ Este proyecto agrega un sistema avanzado de encuestas para servidores de Discord
 > **Estado:** Proyecto descontinuado.  
 > Este addon fue creado para CoreBot. Como CoreBot fue descontinuado, este addon también dejó de recibir mantenimiento activo. El repositorio se conserva únicamente con fines de portafolio, documentación y demostración técnica.
 
+![Advanced Surveys Preview](./images/advanced-surveys-preview.png)
+
 ## 🚀 Características
 
 - Creación de encuestas personalizadas
@@ -24,6 +26,7 @@ Este proyecto agrega un sistema avanzado de encuestas para servidores de Discord
 - Sistema configurable y personalizable
 - Integración como addon para CoreBot
 - Experiencia interactiva dentro de Discord
+- Diseño visual para presentación del producto
 
 ## 🧩 Sistemas principales
 
@@ -72,6 +75,7 @@ Actualmente, esta API ya no se encuentra activa debido a que el proyecto está d
 - API propia para resultados visuales
 - YAML / JSON
 - Git y GitHub
+- Diseño gráfico para presentación de productos digitales
 
 ## 📌 Información del proyecto
 
@@ -82,13 +86,22 @@ Actualmente, esta API ya no se encuentra activa debido a que el proyecto está d
 - **Estado:** Descontinuado
 - **Motivo:** CoreBot fue descontinuado, por lo tanto el addon también dejó de recibir mantenimiento activo.
 
-Este proyecto se conserva como parte de mi portafolio para demostrar experiencia desarrollando addons, sistemas interactivos para Discord, encuestas avanzadas, botones, modales, porcentajes, timestamps y resultados visuales.
+Este proyecto se conserva como parte de mi portafolio para demostrar experiencia desarrollando addons, sistemas interactivos para Discord, encuestas avanzadas, botones, modales, porcentajes, timestamps, resultados visuales y presentación de productos digitales.
 
 ## 🏪 Marketplace
 
 Este addon fue publicado como recurso digital en **CoreMart** bajo el nombre **Surveys | Corebot Addon**.
 
 También puede presentarse como un producto orientado a comunidades de Discord/Minecraft y marketplaces de recursos digitales como **BuiltByBit**, anteriormente conocido como **MC-Market**.
+
+## 📸 Vista previa
+
+Imagen promocional y capturas del addon en funcionamiento.  
+El diseño visual de la presentación también fue realizado por mí.
+
+![Advanced Surveys Preview](./images/advanced_surveys_preview.png)
+
+> Para que la imagen se muestre correctamente en GitHub, el archivo debe estar en esta ruta exacta: `images/advanced-surveys-preview.png`.
 
 ## 📌 Casos de uso
 
@@ -112,7 +125,7 @@ Este addon podía utilizarse para:
 Clona el repositorio:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/advanced-surveys-corebot-addon.git
+git clone https://github.com/kill6r/advanced-surveys-corebot-addon.git
 ```
 
 Entra a la carpeta del proyecto:
@@ -139,9 +152,11 @@ IMAGE_API_URL: "http://localhost:8250"
 
 ## 🖼️ API de imágenes
 
-La versión original del addon utilizaba una API externa propia para generar imágenes de resultados.
+La versión original del addon utilizaba una API propia para generar imágenes de resultados de encuestas.
 
-Ejemplo de implementación segura usando variable de entorno:
+Esta API recibía los datos de la encuesta, procesaba los porcentajes y devolvía una imagen lista para enviarse en Discord.
+
+Para esta versión de portafolio, la integración fue adaptada para usar variables de entorno en lugar de URLs internas.
 
 ```js
 // Legacy image generation API used to create survey result images.
@@ -155,39 +170,18 @@ const request = async (data) => {
 };
 ```
 
-No se recomienda publicar URLs privadas, IPs antiguas o servicios de producción descontinuados.
+## 🔐 Nota del proyecto
 
-## 🔐 Seguridad
-
-Antes de publicar este proyecto, asegúrate de no subir información privada como:
-
-- Tokens de bots de Discord
-- URLs reales de conexión a bases de datos
-- URLs privadas de APIs
-- IPs de servidores antiguos
-- Datos de clientes
-- IDs privados de servidores
-- Datos de usuarios
-- Webhooks
-- Configuraciones comerciales privadas
-- Archivos internos del cliente
-- Licencias privadas
-
-Usa configuraciones de ejemplo cuando sea necesario.
-
-## 📸 Vista previa
-
-Puedes agregar aquí capturas del addon funcionando:
-
-```md
-![Advanced Surveys Preview](./images/preview.png)
-```
+Esta versión del repositorio fue adaptada.  
+Las credenciales, URLs internas y configuraciones privadas fueron reemplazadas por valores de ejemplo.
 
 ## 👨‍💻 Sobre el desarrollador
 
 Desarrollado por **Kill6r**.
 
 Soy desarrollador JavaScript con experiencia creando bots para Discord, Telegram y WhatsApp, addons para CoreBot, integraciones con APIs, sistemas de tickets, minijuegos, sistemas de encuestas, automatizaciones y herramientas personalizadas para comunidades online.
+
+También cuento con experiencia en diseño visual para presentación de productos digitales, incluyendo imágenes promocionales y material gráfico para marketplaces.
 
 ## 📄 Licencia
 
