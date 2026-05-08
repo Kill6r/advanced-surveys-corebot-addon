@@ -103,8 +103,6 @@ El diseño visual de la presentación también fue realizado por mí.
 
 ![Advanced Surveys Preview](./images/advanced_surveys_preview.png)
 
-> Para que la imagen se muestre correctamente en GitHub, el archivo debe estar en esta ruta exacta: `images/advanced-surveys-preview.png`.
-
 ## 📌 Casos de uso
 
 Este addon podía utilizarse para:
