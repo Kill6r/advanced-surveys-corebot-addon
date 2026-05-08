@@ -7,7 +7,7 @@ Este proyecto agrega un sistema avanzado de encuestas para servidores de Discord
 > **Estado:** Proyecto descontinuado.  
 > Este addon fue creado para CoreBot. Como CoreBot fue descontinuado, este addon también dejó de recibir mantenimiento activo. El repositorio se conserva únicamente con fines de portafolio, documentación y demostración técnica.
 
-![Advanced Surveys Preview](./images/advanced-surveys-preview.png)
+![Advanced Surveys Preview](./images/advanced_surveys_preview.png)
 
 ## 🚀 Características
 
