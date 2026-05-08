@@ -90,7 +90,9 @@ Este proyecto se conserva como parte de mi portafolio para demostrar experiencia
 
 ## 🏪 Marketplace
 
-Este addon fue publicado como recurso digital en **CoreMart** bajo el nombre **Surveys | Corebot Addon**.
+Este addon fue publicado como recurso digital en **CoreMart** bajo el nombre **Surveys | Corebot Addon** en 2023.
+
+🔗 Recurso publicado: https://coremart.net/resources/surveys-corebot-addon.195/
 
 También puede presentarse como un producto orientado a comunidades de Discord/Minecraft y marketplaces de recursos digitales como **BuiltByBit**, anteriormente conocido como **MC-Market**.
 
